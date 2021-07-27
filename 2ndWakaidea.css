@@ -1,0 +1,72 @@
+
+body{  
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bolder;
+}
+
+.navbar-brand{
+    position: fixed;
+    top: 1%;
+    left: 1.1%;
+    width: 18%;
+    height: auto;
+}
+.e{
+    height: 220px;
+    width: 350px;
+    margin: 5px;
+}
+.nav-link{
+    margin-right: 1.7%;
+    
+}
+#video{
+    width:600px ;
+    height:400px ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+@media screen 
+    and (max-width: 450px){
+        .main{
+            margin-top: 30%;
+        }
+      
+        footer{
+            font-size: .75em;
+        }
+        #video{
+            height: 90%;
+            width: 90%;
+        }
+       #nav-bar{
+        height: 49%;
+        
+       }
+}        
+    
+   div .link1{
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        flex-wrap: wrap;   
+    }
+
+#myDIV {
+  width:100%;
+  border-bottom: 5px solid rgb(228, 204, 250);
+  border-radius: 50%;
+  animation: mymove 5s infinite ease-in-out;
+  z-index: 1;
+}
+@keyframes mymove {
+1%{width:1px}
+ 10% {border-bottom-color: rgb(204, 6, 6);}
+  30% {border-bottom-color: rgb(212, 3, 219);}
+  50% {width:99%}
+  50% {border-bottom-color: rgb(2, 120, 156);}
+  70% {border-bottom-color: rgb(255, 217, 0);}
+  90% {border-bottom-color: rgba(185, 3, 3, 0.973);}
+  100%{width:100%}
+}

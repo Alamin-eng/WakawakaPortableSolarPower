@@ -30,7 +30,7 @@ body{
 @media screen 
     and (max-width: 450px){
         .main{
-            margin-top: 30%;
+            margin-top: 35%;
         }
       
         footer{
@@ -41,17 +41,35 @@ body{
             width: 90%;
         }
        #nav-bar{
-        height: 49%;
-        
+        height: 40%;
+        font-size: .7em;
+       }
+       #header{
+           height: 42%;
        }
 }        
     
-   div .link1{
-        display: flex;
-        flex-direction: row;
-        text-decoration: none;
-        flex-wrap: wrap;   
-    }
+ @media screen 
+    and (max-width: 680px){
+        .main{
+            margin-top: 35%;
+        }
+      
+        footer{
+            font-size: .75em;
+        }
+        #video{
+            height: 90%;
+            width: 90%;
+        }
+       #nav-bar{
+        height: 40%;
+        font-size: .7em;
+       }
+       #header{
+           height: 42%;
+       }
+}        
 
 #myDIV {
   width:100%;
@@ -61,7 +79,7 @@ body{
   z-index: 1;
 }
 @keyframes mymove {
-1%{width:1px}
+.1%{width:0}
  10% {border-bottom-color: rgb(204, 6, 6);}
   30% {border-bottom-color: rgb(212, 3, 219);}
   50% {width:99%}
@@ -70,3 +88,11 @@ body{
   90% {border-bottom-color: rgba(185, 3, 3, 0.973);}
   100%{width:100%}
 }
+
+/* flex-box :required to use for the free code camp landing page project, I don't like this style */
+  div .link1{ 
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        flex-wrap: wrap;   
+    }

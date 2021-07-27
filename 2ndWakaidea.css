@@ -94,5 +94,6 @@ body{
         display: flex;
         flex-direction: row;
         text-decoration: none;
-        flex-wrap: wrap;   
+        flex-wrap: wrap; 
+        justify-content: center; 
     }
